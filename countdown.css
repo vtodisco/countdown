@@ -1,0 +1,20 @@
+.countdown {
+  width: 100%;
+  background-color: #002C50;
+  color: #FFF;
+  font-family: "Tahoma,Geneva,sans-serif";
+  min-height: 500px;
+}
+
+.countdown .days{
+  float: left;
+}
+.countdown .hours{
+  float: left;
+}
+.countdown .minutes{
+  float: left;
+}
+.countdown .seconds{
+  float: left;
+}

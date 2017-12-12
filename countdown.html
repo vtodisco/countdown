@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/icon-definitions.css">
+  </head>
+<body>
+  <div id="clock-header" class="container-fluid countdown">
+    <div class="row">
+        <div class="col-md-12 text-center"><img src="maggiore.jpg" height="200px"/></div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 text-center"><h1>IT MIGRATION</h1></div>
+    </div>
+  </div>
+  <div id="clockdiv" class="countdown container-fluid">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <table class="table borderless">
+          <tbody>
+<!--            <tr><td><H2 class="days">GIORNI</H2></td><td><H2 class="hours">ORE</H2></td><td><H2 class="minutes">MINUTI</H2></td><td><H2 class="seconds">SECONDI</H2></td></tr> -->
+            <tr><td><H2 class="days">D</H2> <H2 id="days" class="days"></H2></td><td><H2 class="hours">H</H2> <H2 id="hours" class="hours"></H2></td><td><H2 class="minutes">M</H2> <H2 id="minutes" class="minutes"></H2></td><td><H2 class="seconds">S</H2> <H2 id="seconds" class="seconds"></H2></td></tr>
+          </tbody>
+		 </table>
+      </div>
+      <div class="col-md-1">
+	  </div>
+    </div>
+    <div class="row countdown-bottom">
+      <div class="col-md-12">
+	  	<div><img src="abc.jpg" height="150px" /></div>
+	  </div>
+	</div>
+</div>
+
+</body>
+<!--
+    <div class="row">
+      <div class="col-md-2">&nbsp;</div>
+      <h1 id="days" class="col-md-2"></h1>
+      <h1 id="hours" class="col-md-2"></h1>
+      <h1 id="minutes" class="col-md-2"></h1>
+      <h1 id="seconds" class="col-md-2"></h1>
+      <div class="col-md-2">&nbsp;</div>
+    </div>
+  </div>
+-->
+</html>
+<script src="configuration.js"></script>
+<script src="countdown.js"></script>
+<script>
+initializeClock();
+</script>
